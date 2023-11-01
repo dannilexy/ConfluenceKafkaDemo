@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfluenceKafkaDemo", "ConfluenceKafkaDemo\ConfluenceKafkaDemo.csproj", "{F47EBC9D-BE32-41DA-AF0C-15965138FBFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerApp", "ConsumerApp\ProducerApp.csproj", "{F8FBEA8A-B4EF-4806-9965-A1F357B297D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F47EBC9D-BE32-41DA-AF0C-15965138FBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47EBC9D-BE32-41DA-AF0C-15965138FBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47EBC9D-BE32-41DA-AF0C-15965138FBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47EBC9D-BE32-41DA-AF0C-15965138FBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FBEA8A-B4EF-4806-9965-A1F357B297D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FBEA8A-B4EF-4806-9965-A1F357B297D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FBEA8A-B4EF-4806-9965-A1F357B297D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FBEA8A-B4EF-4806-9965-A1F357B297D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89873BE4-46F6-4C90-8276-3EC05608E029}
+	EndGlobalSection
+EndGlobal
